@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {AppBar, Toolbar, IconButton, Typography, Button} from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
 import navBarClasses from '../styles/navbar.module.scss';
 
 function Navbar() {
@@ -18,7 +19,7 @@ function Navbar() {
             <Link to="/contacto" className={navBarClasses.menuLink}><Button size="large" color="inherit" className={navBarClasses.menuButton}>Contacto</Button></Link>
           </div>
           <IconButton edge="start"  color="inherit" aria-label="menu" className={navBarClasses.menuHamburger}>
-            <i>Hamburguer Button</i>
+            <MenuIcon />
           </IconButton>
         </Toolbar>
       </AppBar> 
