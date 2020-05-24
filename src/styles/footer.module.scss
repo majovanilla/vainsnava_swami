@@ -1,0 +1,24 @@
+.socialDiv,
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer {
+  flex-direction: column;
+  position: static;
+  bottom: 0;
+  max-width: 100%;
+  height: 100px;
+  padding: 20px 100px;
+  background: rgba(255, 165, 0, 0.5);
+}
+
+.socialDiv {
+  margin: 10px 0;
+}
+
+.footerIcon {
+  margin: 0 10px;
+}
