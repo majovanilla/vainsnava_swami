@@ -1,0 +1,43 @@
+.navbar {
+  padding: 30px 150px;
+}
+
+.toolBar {
+  min-width: 100%;
+  margin: auto;
+}
+
+.menuHamburger {
+  display: none !important;
+  margin-right: 3rem !important;
+}
+
+.title {
+  font-size: 2rem !important;
+  flex-grow: 1;
+}
+
+.menuDiv {
+  justify-self: flex-end;
+}
+
+.menuLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 960px) {
+
+  .navbar {
+    padding: 30px 50px;
+  }
+
+  .menuHamburger {
+    margin: 0 !important;
+    display: inline-block !important;
+  }
+
+  .menuDiv {
+    display: none !important;
+  }
+}
