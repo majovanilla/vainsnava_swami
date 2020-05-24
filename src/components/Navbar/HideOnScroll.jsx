@@ -16,7 +16,6 @@ function HideOnScroll(props) {
 
 HideOnScroll.propTypes = {
   children: PropTypes.element.isRequired,
-  window: PropTypes.func,
 };
 
 export default HideOnScroll

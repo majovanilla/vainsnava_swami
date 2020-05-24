@@ -8,7 +8,7 @@ import navBarClasses from '../styles/navbar.module.scss';
 function Navbar() {
   return (
     <HideOnScroll>
-      <AppBar position="fixed" className={navBarClasses.navbar}>
+      <AppBar position="fixed" color="transparent" className={navBarClasses.navbar}>
         <Toolbar className={navBarClasses.toolBar}>
           <Typography className={navBarClasses.title}>
             Vaisnava Swami

@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import MainImage from './MainImage';
+import Featured from './Featured';
 
 function Home() {
   return (
     <div className="Home">
       <MainImage/>
+      <Featured/>
     </div>
   );
 }
