@@ -5,7 +5,7 @@ import MainImage from './MainImage';
 function Home() {
   return (
     <div className="Home">
-      <MainImage/>  
+      <MainImage/>
     </div>
   );
 }

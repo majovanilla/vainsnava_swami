@@ -1,12 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import HideOnScroll from '../components/Navbar/HideOnScroll';
 import {AppBar, Toolbar, IconButton, Typography, Button} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import navBarClasses from '../styles/navbar.module.scss';
 
 function Navbar() {
   return (
-      <AppBar position="static"  className={navBarClasses.navbar}>
+    <HideOnScroll>
+      <AppBar position="fixed" className={navBarClasses.navbar}>
         <Toolbar className={navBarClasses.toolBar}>
           <Typography className={navBarClasses.title}>
             Vaisnava Swami
@@ -18,11 +20,13 @@ function Navbar() {
             <Link to="/videos" className={navBarClasses.menuLink}><Button size="large" color="inherit" className={navBarClasses.menuButton}>Videos</Button></Link>
             <Link to="/contacto" className={navBarClasses.menuLink}><Button size="large" color="inherit" className={navBarClasses.menuButton}>Contacto</Button></Link>
           </div>
+    
           <IconButton edge="start"  color="inherit" aria-label="menu" className={navBarClasses.menuHamburger}>
             <MenuIcon />
           </IconButton>
         </Toolbar>
       </AppBar> 
+    </HideOnScroll>
   );
 }
 
