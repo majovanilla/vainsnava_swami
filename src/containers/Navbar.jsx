@@ -10,9 +10,9 @@ function Navbar() {
     <HideOnScroll>
       <AppBar position="fixed" color="transparent" className={navBarClasses.navbar}>
         <Toolbar className={navBarClasses.toolBar}>
-          <Typography className={navBarClasses.title}>
+          {/* <Typography className={navBarClasses.title}>
             Vaisnava Swami
-          </Typography>
+          </Typography> */}
           <div className={navBarClasses.menuDiv}>
             <Link to="/" className={navBarClasses.menuLink}><Button size="large" color="inherit" className={navBarClasses.menuButton}>Inicio</Button></Link>
             <Link to="/about" className={navBarClasses.menuLink}><Button size="large" color="inherit" className={navBarClasses.menuButton}>Historia</Button></Link>
