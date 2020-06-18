@@ -8,6 +8,8 @@ function About() {
       <Typography variant="h4" className={classes.mainTitle}>
         Mi Historia
       </Typography>
+      {/* <div className={classes.mainContainer}> */}
+      <img className={classes.mainPic} src="https://images.unsplash.com/photo-1567983048412-177c435e9e77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80" alt="profile"/>
       <Typography variant="body1" className={classes.mainText}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non consequat nisl, vitae ullamcorper sem. Nulla facilisi. Aenean in nisi et eros tincidunt interdum a ac sapien. Etiam et consectetur mi. Donec a sollicitudin ligula, in rutrum dui. Proin sollicitudin eu magna quis tincidunt. Donec sit amet massa sapien. Nunc ac diam in orci sodales ultricies. Nam vel mi nec libero volutpat volutpat. Proin ullamcorper vehicula ligula eu dignissim. Nunc id fermentum tellus.
         <br/>
@@ -26,6 +28,7 @@ function About() {
 
         Duis a tortor feugiat, semper sapien vel, faucibus nisl. Aenean a dolor finibus, facilisis purus sit amet, sodales dui. Proin volutpat sollicitudin metus, sed scelerisque nisi condimentum quis. Proin lacinia sollicitudin fringilla. Vestibulum at volutpat nisl, sed dignissim velit. Quisque sed metus nulla. Nunc commodo posuere ligula sit amet efficitur. Mauris sit amet risus interdum, sagittis enim nec, consectetur lacus. Nulla facilisi. Curabitur non tortor at dui vulputate tristique ut eu orci. Quisque augue ligula, accumsan non tincidunt ac, blandit eu ligula. Aliquam viverra consequat tortor, eu malesuada neque efficitur ac. Aliquam dapibus tristique blandit. Sed mi leo, feugiat a gravida vel, ullamcorper id ante. Nullam id tellus bibendum, eleifend arcu sit amet, semper enim.
       </Typography>
+      {/* </div> */}
   </Container>
   );
 }
