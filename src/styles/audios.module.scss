@@ -1,0 +1,37 @@
+@import 'variables';
+
+.mainDiv {
+  padding: 150px 0;
+}
+
+.mainContainer {
+  display: flex;
+}
+
+.mainTitle {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.mainText {
+  color: $color-dark-gray;
+}
+
+.mainPic {
+  max-width: 40%;
+  max-height: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cover {
+  min-width: 150px;
+  min-height: 100px;
+}
+
+.audioCard {
+  display: flex;
+  width: 40%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
