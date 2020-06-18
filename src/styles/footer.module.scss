@@ -7,10 +7,9 @@
 
 .Footer {
   flex-direction: column;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  height: 100px;
   padding: 20px 0;
   background: rgba(255, 165, 0, 1);
 }
