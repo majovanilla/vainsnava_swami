@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/Home/Home';
-import Navbar from './containers/Navbar';
-import Footer from './containers/Footer';
-import Contact from './containers/Contact';
-import Audios from './containers/Audios';
-import Videos from './containers/Videos';
-import About from './components/About';
+import Home from './Home/Home';
+import Navbar from '../containers/Navbar';
+import Footer from '../containers/Footer';
+import Contact from '../containers/Contact';
+import Audios from '../containers/Audios';
+import Videos from '../containers/Videos';
+import About from './About';
 
 function App() {
   return (

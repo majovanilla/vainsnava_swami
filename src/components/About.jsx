@@ -1,11 +1,12 @@
 import React from 'react';
+import classes from '../styles/about.module.scss';
 
-function Historia() {
+function About() {
   return (
-    <div className="Historia">
+    <div className={classes.mainDiv}>
 
     </div>
   );
 }
 
-export default Historia;
+export default About;

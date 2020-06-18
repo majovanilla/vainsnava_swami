@@ -8,7 +8,7 @@ import { Typography } from '@material-ui/core';
 
 function Footer() {
   return (
-    <div className={footerClasses.Footer}>
+    <footer className={footerClasses.Footer}>
       <div className={footerClasses.socialDiv}>
         <FacebookIcon className={footerClasses.footerIcon}/>
         <TwitterIcon className={footerClasses.footerIcon}/>
@@ -18,7 +18,7 @@ function Footer() {
       <Typography type="body2">
         &copy; All rights reserved 2020
       </Typography>
-    </div>
+    </footer>
   );
 }
 
