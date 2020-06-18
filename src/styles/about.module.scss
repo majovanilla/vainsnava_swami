@@ -1,3 +1,16 @@
+@import 'variables';
+
 .mainDiv {
-  
+  margin-top: 150px;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+.mainText {
+  width: 60%;
+  margin: auto !important;
+  padding-top: 50px;
+  color: $color-dark-gray;
 }
