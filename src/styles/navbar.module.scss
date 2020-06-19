@@ -1,5 +1,5 @@
 .navbar {
-  padding: 20px 100px;
+  padding: 10px 100px;
 }
 
 .toolBar {
@@ -11,6 +11,11 @@
 .menuHamburger {
   display: none !important;
   margin-right: 3rem !important;
+}
+
+.toggleMenu {
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -30,7 +35,7 @@
 @media only screen and (max-width: 960px) {
 
   .navbar {
-    padding: 30px 50px;
+    padding: 10px 50px;
   }
 
   .menuHamburger {
