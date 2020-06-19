@@ -29,9 +29,25 @@
   min-height: 100px;
 }
 
+.podcastDiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
 .audioCard {
   display: flex;
   width: 40%;
   margin: 20px auto;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 920px) {
+  .podcastDiv {
+    flex-direction: column;
+  }
+
+  .audioCard {
+    width: 90%;
+  }
 }
